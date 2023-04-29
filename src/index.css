@@ -1,0 +1,80 @@
+
+.main{
+   align-self: center;
+   
+  
+    font-weight: 200;
+    /* border-bottom: 1px inset rgb(49, 23, 197); */
+    /* box-shadow: 0 7px 6px rgb(219, 207, 207); */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+  
+}
+.c{
+   
+    border-radius: 25%; 
+    height: 21px;
+    width: 20px;
+    padding: 3px;
+    color: antiquewhite;
+}
+
+.first{
+    background-color: rgb(9, 255, 0);
+    transform-origin: bottom;
+    animation: ani-1 0.3s linear 0s infinite normal;
+}
+.second{
+    background-color: rgb(151, 61, 139);
+   
+    transform-origin: bottom;
+    animation: ani-2 0.4s linear 0s infinite normal;
+}
+.third{
+    background-color: rgb(41, 59, 136);
+    
+    transform-origin: bottom;
+    animation: ani-3 0.5s linear 0s infinite normal;
+}
+.fourth{
+    background-color: rgb(70, 160, 70);
+   
+    transform-origin: bottom;
+    animation: ani-4 0.6s linear 0s infinite normal;
+}
+
+
+@keyframes ani-1 {
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(2);
+    }
+}
+@keyframes ani-2 {
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(2);
+    }
+}
+@keyframes ani-3 {
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(2);
+    }
+}
+@keyframes ani-4 {
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(2);
+    }
+}
